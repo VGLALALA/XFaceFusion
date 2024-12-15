@@ -330,6 +330,7 @@ def post_process() -> None:
 	if state_manager.get_item('video_memory_strategy') in [ 'strict', 'moderate' ]:
 		clear_inference_pool()
 	if state_manager.get_item('video_memory_strategy') == 'strict':
+		pass
 		#content_analyser.clear_inference_pool()
 
 
