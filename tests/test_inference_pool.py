@@ -3,7 +3,7 @@ from unittest.mock import patch
 import pytest
 from onnxruntime import InferenceSession
 
-from facefusion import content_analyser, state_manager
+from facefusion import state_manager
 from facefusion.inference_manager import INFERENCE_POOLS, get_inference_pool
 
 

@@ -2,7 +2,7 @@ from typing import List, Optional
 
 import gradio
 
-from facefusion import content_analyser, face_classifier, face_detector, face_landmarker, face_masker, face_recognizer, state_manager, voice_extractor, wording
+from facefusion import face_classifier, face_detector, face_landmarker, face_masker, face_recognizer, state_manager, voice_extractor, wording
 from facefusion.execution import get_execution_provider_choices
 from facefusion.processors.core import clear_processors_modules
 from facefusion.typing import ExecutionProviderKey

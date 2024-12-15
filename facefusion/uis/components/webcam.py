@@ -11,7 +11,6 @@ from tqdm import tqdm
 from facefusion import logger, state_manager, wording
 from facefusion.audio import create_empty_audio_frame
 from facefusion.common_helper import is_windows
-from facefusion.content_analyser import analyse_stream
 from facefusion.face_analyser import get_average_face, get_many_faces
 from facefusion.ffmpeg import open_ffmpeg
 from facefusion.filesystem import filter_image_paths

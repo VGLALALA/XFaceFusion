@@ -8,7 +8,6 @@ import numpy
 from facefusion import logger, process_manager, state_manager, wording
 from facefusion.audio import create_empty_audio_frame, get_audio_frame
 from facefusion.common_helper import get_first
-from facefusion.content_analyser import analyse_frame
 from facefusion.core import conditional_append_reference_faces
 from facefusion.face_analyser import get_average_face, get_many_faces
 from facefusion.face_store import clear_reference_faces, clear_static_faces, get_reference_faces
